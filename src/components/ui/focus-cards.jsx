@@ -1,5 +1,5 @@
 "use client";;
-import Image from "next/image";
+//import Image from "next/image";
 import React, { useState } from "react";
 import { cn } from "@/lib/utils";
 
@@ -16,10 +16,10 @@ export const Card = React.memo(({
       "rounded-lg relative bg-gray-100 dark:bg-neutral-900 overflow-hidden h-60 md:h-96 w-full transition-all duration-300 ease-out",
       hovered !== null && hovered !== index && "blur-sm scale-[0.98]"
     )}>
-    <Image
+    <img
       src={card.src}
       alt={card.title}
-      fill
+      
       className="object-cover absolute inset-0" />
     <div
       className={cn(
