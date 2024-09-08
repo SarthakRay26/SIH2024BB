@@ -13,10 +13,14 @@ const Events = () => {
   return (
     <div className="StardosStencil-Regular md:text-7xl text-3xl text-[#FA8603]">
       <div>Events</div>
+      
       <div className="flex flex-col items-center">
         <div className="h-1 bg-black w-32 rounded-xl"></div>
         <div className="h-1 bg-black w-24 mt-1 rounded-xl"></div>
       </div>
+      <h1 className="text-xl md:text-4xl mt-4 StardosStencil-Regular text-[#000000]">
+      "Step Into the Past, Celebrate the Present – Explore Our Events!"
+      </h1>
       <div className="container mx-auto p-4">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {events.slice(0, 4).map(event => (
