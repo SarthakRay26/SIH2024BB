@@ -19,8 +19,8 @@ function App() {
       <NavbarF />
       <MuseumSection />
       <Events />
-      <Gallery />
       <History />
+      <Gallery />
       <Footer />
       {/* <Navbar /> */}
       {/* <h1 className="text-4xl">Welcome to The Indian Museum</h1> */}
