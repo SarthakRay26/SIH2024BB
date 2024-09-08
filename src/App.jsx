@@ -10,16 +10,16 @@ import MuseumSection from "./components/Museum Section";
 function App() {
 
   return (
-    <>
+    <div>
       <NavbarF />
       <MuseumSection />
       {/* <Navbar /> */}
-      <h1 className="text-4xl">Welcome to The Indian Museum</h1>
+      {/* <h1 className="text-4xl">Welcome to The Indian Museum</h1> */}
       {/* <BackgroundBeamsDemo /> */}
-      <Home />
-      <Button>Hello</Button>
-      <AnimatedPinDemo></AnimatedPinDemo>
-    </>
+      {/* <Home /> */}
+      {/* <Button>Hello</Button> */}
+      {/* <AnimatedPinDemo></AnimatedPinDemo> */}
+    </div>
   );
 }
 

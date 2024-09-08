@@ -2,4 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-  
+body {
+    background-color: #f4e4d2;
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+@layer base {
+    @font-face {
+        font-family: "PlayfairDisplay";
+        src: url(/src/fonts/PlayfairDisplay-VariableFont_wght.ttf);
+    }
+    @font-face {
+        font-family: "StardosStencil-Regular";
+        src: url(/src/fonts/StardosStencil-Regular.ttf);
+    }
+}
+
+html, body {
+    overflow: auto !important;
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+}
+
+html::-webkit-scrollbar, body::-webkit-scrollbar {
+    display: none !important;
+}
+
+.Playfair-font {
+    font-family: "PlayfairDisplay", serif;
+}
+
+.StardosStencil-Regular{
+    font-family: "StardosStencil-Regular", serif;
+}
