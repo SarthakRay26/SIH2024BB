@@ -2,8 +2,7 @@
 
 import { useState } from "react";
 import { Input } from "@nextui-org/input";
-import { Button } from "@nextui-org/button";
-import { button as buttonStyles } from "@nextui-org/theme";
+import {Button } from "../components/ui/button"
 import { useTheme } from "next-themes";
 
 export default function Home() {
@@ -92,8 +91,7 @@ export default function Home() {
             onKeyPress={handleKeyPress} // Listen for Enter key press
           />
           <Button
-            className={buttonStyles({ color: "primary", radius: "full" })}
-            onPress={handleSendMessage}
+            onClick={handleSendMessage}
           >
             Send
           </Button>
