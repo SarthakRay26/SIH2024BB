@@ -16,7 +16,7 @@ const MuseumSection = () => {
   }, []);
 
   return (
-    <div className="relative h-screen bg-cover bg-center mt-14 rounded-xl" style={{ backgroundImage: "url('src/components/ui/BG.png')" }}>
+    <div className="relative h-screen bg-cover bg-center mt-14 rounded-xl" style={{ backgroundImage: "url(https://i.ibb.co/wQkxDHw/BG.png)" }}>
       <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center rounded-xl">
         <h1
           ref={indianTextRef}
@@ -34,7 +34,7 @@ const MuseumSection = () => {
         ></div>
         <h1
           ref={museumTextRef}
-          className="text-5xl md:text-7xl font-bold mb-8 StardosStencil-Regular text-[#FA8603]"
+          className="text-5xl md:text-7xl mb-8 StardosStencil-Regular text-[#FA8603]"
         >
           MUSEUM
         </h1>
