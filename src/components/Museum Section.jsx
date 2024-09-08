@@ -20,16 +20,16 @@ const MuseumSection = () => {
       <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center rounded-xl">
         <h1
           ref={indianTextRef}
-          className="text-5xl md:text-7xl mb-2 StardosStencil-Regular text-[#FA8603]"
+          className="text-5xl md:text-7xl StardosStencil-Regular text-[#FA8603]"
         >
           INDIAN
         </h1>
         <div
-          className="h-1 bg-[#FA8603] mb-6"
+          className="h-1 bg-[#FA8603] mb-2"
           style={{ width: indianLineWidth }}
         ></div>
         <div
-          className="h-1 bg-[#FA8603] mb-6"
+          className="h-1 bg-[#FA8603]"
           style={{ width: museumLineWidth }}
         ></div>
         <h1
