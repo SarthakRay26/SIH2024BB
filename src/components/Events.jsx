@@ -22,9 +22,9 @@ const Events = () => {
       "Step Into the Past, Celebrate the Present – Explore Our Events!"
       </h1>
       <div className="container mx-auto p-4">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 border-2 border-red-800 p-4">
           {events.slice(0, 4).map(event => (
-            <div key={event._id} className="bg-white shadow-md rounded-lg overflow-hidden">
+            <div key={event._id} className="bg-white shadow-md rounded-lg overflow-hidden ">
               <img src={event.image} alt={event.name} className="w-full h-48 object-cover" />
               <div className="p-4">
                 <h2 className="text-xl font-bold mb-2">{event.name}</h2>
