@@ -4,7 +4,7 @@ const History = () => {
   return (
     <>
       <div
-        className="relative h-screen bg-cover bg-center mt-14 rounded-xl"
+        className="relative h-screen bg-cover bg-center  rounded-xl mt-[20px]"
         style={{ backgroundImage: "url(https://i.ibb.co/C8vQjHV/just-1.png)" }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center rounded-xl">

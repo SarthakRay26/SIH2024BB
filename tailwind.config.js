@@ -10,6 +10,7 @@ module.exports = {
     './components/**/*.{js,jsx,ts,tsx}',
     './app/**/*.{js,jsx,ts,tsx}',
     './src/**/*.{js,jsx,ts,tsx}',
+    './public/index.html',
   ],
   prefix: "",
   theme: {
@@ -34,6 +35,11 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      columns: {
+        '2': '2',
+        '3': '3',
+        '4': '4',
       },
     },
   },

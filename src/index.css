@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+    .break-inside-avoid {
+      break-inside: avoid;
+    }
+  }
+  
+
 body {
     background-color: #f4e4d2;
     overflow: auto;

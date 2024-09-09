@@ -20,7 +20,7 @@ const MuseumSection = () => {
       <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center rounded-xl">
         <h1
           ref={indianTextRef}
-          className="text-5xl md:text-7xl StardosStencil-Regular text-[#FA8603]"
+          className="text-5xl md:text-8xl StardosStencil-Regular text-[#FA8603]"
         >
           INDIAN
         </h1>
@@ -34,7 +34,7 @@ const MuseumSection = () => {
         ></div>
         <h1
           ref={museumTextRef}
-          className="text-5xl md:text-7xl mb-8 StardosStencil-Regular text-[#FA8603]"
+          className="text-5xl md:text-8xl mb-8 StardosStencil-Regular text-[#FA8603]"
         >
           MUSEUM
         </h1>

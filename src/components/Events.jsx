@@ -11,7 +11,7 @@ const Events = () => {
   }, []);
 
   return (
-    <div className="StardosStencil-Regular md:text-7xl text-3xl text-[#FA8603]">
+    <div className="StardosStencil-Regular md:text-7xl text-3xl text-[#FA8603] mt-[30px]">
       <div>Events</div>
       
       <div className="flex flex-col items-center">
