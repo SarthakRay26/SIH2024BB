@@ -7,7 +7,7 @@ const History = () => {
         className="relative h-screen bg-cover bg-center  rounded-xl mt-[20px]"
         style={{ backgroundImage: "url(https://i.ibb.co/C8vQjHV/just-1.png)" }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center rounded-xl">
+        <div className="absolute inset-0 bg-black bg-opacity-80 flex flex-col justify-center items-center rounded-xl">
           <h1 className="text-2xl md:text-7xl StardosStencil-Regular text-[#FA8603] mt-[-50px]">
             HISTORY
           </h1>
