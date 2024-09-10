@@ -21,11 +21,11 @@ function App() {
       <Events />
       <History />
       <Gallery />
-      <Footer />
+      {/* <Footer /> */}
       {/* <Navbar /> */}
       {/* <h1 className="text-4xl">Welcome to The Indian Museum</h1> */}
       {/* <BackgroundBeamsDemo /> */}
-      {/* <Home /> */}
+      <Home />
       {/* <Button>Hello</Button> */}
       {/* <AnimatedPinDemo></AnimatedPinDemo> */}
     </div>
