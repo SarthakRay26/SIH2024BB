@@ -104,7 +104,7 @@ export default function Home() {
           {/* Chat Input Area */}
           <div className="w-full max-w-2xl flex items-center gap-2 mt-4">
             <Input
-              className={`flex-1 ${
+              className={`flex-1 border border-gray-500 rounded-lg p-2 ${
                 theme === "dark"
                   ? "bg-gray-700 text-white placeholder-gray-400"
                   : "bg-white text-gray-900 placeholder-gray-500"
@@ -113,7 +113,7 @@ export default function Home() {
               fullWidth
               value={inputValue}
               onChange={(e) => setInputValue(e.target.value)}
-              onKeyPress={handleKeyPress} // Listen for Enter key press
+              onKeyPress={handleKeyPress} 
             />
             <Button onClick={handleSendMessage}>Send</Button>
           </div>
