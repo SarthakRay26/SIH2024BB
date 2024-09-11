@@ -48,3 +48,8 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 .StardosStencil-Regular{
     font-family: "StardosStencil-Regular", serif;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
+  

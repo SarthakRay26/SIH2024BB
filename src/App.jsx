@@ -11,21 +11,28 @@ import Gallery from "./components/Gallery.jsx";
 import History from "./components/History.jsx";
 import Footer from "./components/Footer.jsx";
 
-
 function App() {
-
   return (
     <div>
       <NavbarF />
       <MuseumSection />
-      <Events />
-      <History />
-      <Gallery />
+      <section id="Events">
+        <Events />
+      </section>
+      <section id="history">
+        <History />
+      </section>
+      <section id="gallery">
+        <Gallery />
+      </section>
+      <section id="book-ticket">
+        <Home />
+      </section>
+      
       {/* <Footer /> */}
       {/* <Navbar /> */}
       {/* <h1 className="text-4xl">Welcome to The Indian Museum</h1> */}
       {/* <BackgroundBeamsDemo /> */}
-      <Home />
       {/* <Button>Hello</Button> */}
       {/* <AnimatedPinDemo></AnimatedPinDemo> */}
     </div>

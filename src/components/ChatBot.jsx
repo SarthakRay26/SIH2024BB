@@ -21,13 +21,13 @@ export default function Home() {
           "https://museum-ticketing-chatbot-77ed536e1a06.herokuapp.com/chat",
           {
             userID:
-              "0pe2d4c7087733c06b1087b28db95e114d7caeb515b841c6cdec8960cf884654",
+              "0pe2d4c7087733c06b1087b28db96e114d7caeb515b841c6cdec8960cf884654",
             message: inputValue,
           }
         );
 
         const botMessage = {
-          text: response.data.messageToUser, // Adjust this based on your API response structure
+          text: response.data.messageToUser, 
           sender: "OurBot",
         };
 

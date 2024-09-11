@@ -6,6 +6,17 @@ const MuseumSection = () => {
   const [indianLineWidth, setIndianLineWidth] = useState(0);
   const [museumLineWidth, setMuseumLineWidth] = useState(0);
 
+  // Function to handle smooth scrolling when clicking the button
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth", // Enables smooth scrolling
+        block: "start",     // Aligns the target section to the top
+      });
+    }
+  };
+
   useEffect(() => {
     if (indianTextRef.current) {
       setIndianLineWidth(indianTextRef.current.offsetWidth);
@@ -38,7 +49,10 @@ const MuseumSection = () => {
         >
           MUSEUM
         </h1>
-        <button className="Playfair-font bg-orange-500 hover:bg-orange-600 text-black py-3 px-6 rounded-md text-xl transition duration-300">
+        <button
+          onClick={() => scrollToSection("book-ticket")} // Scroll to the section with ID 'book-ticket'
+          className="Playfair-font bg-orange-500 hover:bg-orange-600 text-black py-3 px-6 rounded-md text-xl transition duration-300"
+        >
           Book A Ticket
         </button>
       </div>

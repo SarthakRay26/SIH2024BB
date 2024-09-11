@@ -6,7 +6,7 @@ const NavbarF = () => {
       <div className="container mx-auto flex flex-wrap justify-between items-center px-4">
         <ul className="flex space-x-4 md:space-x-6 text-white justify-center w-full md:w-auto">
           <li>
-            <a href="#events" className="hover:text-yellow-500">Events</a>
+            <a href="#Events" className="hover:text-yellow-500">Events</a>
           </li>
           <li>
             <a href="#gallery" className="hover:text-yellow-500">Gallery</a>
